@@ -1,0 +1,59 @@
+<html>
+<head>
+    <title>Task 4</title>
+</head>
+<body>
+    <h1 align="center">Registration Form</h1>   
+    <form action="home.html" method="POST">
+        <label>Name</label>
+        <input type="text" name="uname">
+        <br><br>
+
+        <label>Gender</label>
+        <input type="radio" name="gender" value="male">Male
+        <input type="radio" name="gender" value="female">Female
+        <br><br>
+
+        <label>DOB</label>
+        <input type="date" name="udob">
+        <br><br>
+
+        <label>Contact No.</label>
+        <input type="number" name="uphn">
+        <br><br>
+
+        <label>Email Id</label>
+        <input type="email" name="uemail">
+        <br><br>
+
+        <label>Password</label>
+        <input type="password" name="upass">
+        <br><br>
+
+        <label>Country</label>
+        <Select name="ucountry">
+            <option selected disabled>Select Your Country</option>
+            <option>India</option>
+            <option>UK</option>
+            <option>US</option>           
+            <option>UAE</option>
+            <option>Asia</option>
+            <option>Iraq</option>
+        </Select>
+        <br><br>
+        
+        <label>Choose Hobbies</label>
+        <input type="checkbox" name="hob1">Art & Craft
+        <input type="checkbox" name="hob2">Music
+        <input type="checkbox" name="hob3">Photography
+        <input type="checkbox" name="hob4">Travel
+        <input type="checkbox" name="hob5">Singing
+        <br><br>
+
+        <input type="file" name="ufile">
+        <br><br>
+        <input type="submit" value="Register">
+
+    </form>
+</body>
+</html>
